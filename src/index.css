@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+}
+
+
+.profile-avatar {
+  height: 50px;
+  /* width: 200px; */
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile {
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+  height: 150px;
+
+}
