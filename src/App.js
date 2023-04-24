@@ -16,7 +16,7 @@ function App() {
 
   const addUser = (newUser) => {
     newUser.id = uuidv4();
-    console.log(typeof newUser.id);
+    //console.log(typeof newUser.id);
     setUserdata([...userdata, newUser]);
   }
 
